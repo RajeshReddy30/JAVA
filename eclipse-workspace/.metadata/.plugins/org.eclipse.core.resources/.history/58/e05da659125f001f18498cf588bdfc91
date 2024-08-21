@@ -1,0 +1,26 @@
+package com.xworkz.objectMethods.services;
+
+public class Tech {
+    void displayInfo() {
+        System.out.println("This is a tech device.");
+    }
+}
+
+// Derived class
+
+
+public class Main {
+    public static void main(String[] args) {
+        // Upcasting
+        Tech myTech = new Laptop();  // Laptop is upcast to Tech
+        myTech.displayInfo();  // Calls the overridden method in Laptop class
+
+        // Downcasting
+        if (myTech instanceof Laptop) {  // Check if myTech is an instance of Laptop
+            Laptop myLaptop = (Laptop) myTech;  // Downcast back to Laptop
+            myLaptop.showSpecs();  // Now you can call methods specific to Laptop class
+        } else {
+            System.out.println("Downcasting not possible.");
+        }
+        }
+}

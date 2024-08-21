@@ -1,0 +1,13 @@
+package com.xworkz.objectMethods.runner;
+
+import com.xworkz.objectMethods.services.Earth;
+
+public class EarthRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Earth earth=new Earth();
+
+	}
+
+}
