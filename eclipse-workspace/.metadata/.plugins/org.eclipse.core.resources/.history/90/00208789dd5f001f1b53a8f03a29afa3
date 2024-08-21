@@ -1,0 +1,31 @@
+package com.xworkz.oops.runner;
+
+import com.xworkz.oops.service.Conversion;
+
+public class ConversionRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Conversion conver=new Conversion();
+		conver.number=988;
+		conver.members=32;
+		conver.count=24;
+		conver.decimalNumbers=24332.436f;
+		conver.largerDecimals=317868.8319758;
+		Integer integer=Integer.valueOf(conver.number);
+		Byte bytes=Byte.valueOf(conver.members);
+		Short shorts=Short.valueOf(conver.count);
+		Float floats=Float.valueOf(conver.decimalNumbers);
+		Double doubles=Double.valueOf(conver.largerDecimals);
+		Boolean booleans=Boolean.valueOf(conver.isconverted);
+		
+		System.out.println("int to Integer:"+integer);
+		System.out.println("byte to bytes:"+bytes);
+		System.out.println("short to Short:"+conver.count);
+		System.out.println("float to Float:"+conver.decimalNumbers);
+		System.out.println("double to Double:"+conver.largerDecimals);
+		System.out.println("boolean to Boolean:"+conver.isconverted);
+
+	}
+
+}
