@@ -1,0 +1,9 @@
+package com.xworkz.app.runner;
+
+import com.xworkz.app.Dto.PubDto;
+import com.xworkz.app.constant.PubNameConstant;
+
+public class PubRunner {
+	PubDto pubdto=new PubDto(PubNameConstant.TheRedLion.toString());
+
+}

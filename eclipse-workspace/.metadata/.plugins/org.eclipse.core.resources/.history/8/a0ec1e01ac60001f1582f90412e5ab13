@@ -1,0 +1,23 @@
+package com.xworkz.app.services;
+
+import com.xworkz.app.Dto.PubDto;
+
+public class Pub {
+	public PubDto pubdto[] = new PubDto[4];
+	public int index;
+	public String onSave(PubDto dto) {
+		System.out.println("save method is running");
+		if(dto==null) {
+			System.out.println("pubdto is null");
+		return "not saved";
+		}else {
+			if(this.index<pubdto.length){
+				pubdto[index]=dto;
+				index++;
+				return "saved Successfully";
+				
+			}
+		}
+		return "not saved";
+	}
+}

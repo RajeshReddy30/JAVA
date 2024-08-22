@@ -1,0 +1,15 @@
+package com.xworkz.app.Util;
+
+import com.xworkz.app.Dto.PubDto;
+
+public class PubUtil {
+	public static boolean checkDuplicates(PubDto[] pubDto,PubDto dto) {
+		System.out.println("duplicate check");
+		for(PubDto pubdto : pubDto ) {
+			if( pubdto!=null && pubDto.equals(dto))
+				return true;
+		}
+		return false;
+	}
+	
+}
