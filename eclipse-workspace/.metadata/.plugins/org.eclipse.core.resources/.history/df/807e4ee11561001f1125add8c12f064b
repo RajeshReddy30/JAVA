@@ -1,0 +1,17 @@
+package com.xworkz.app.runner;
+
+import java.time.LocalDate;
+
+import com.xworkz.app.Dto.PlayStoreDto;
+import com.xworkz.app.constant.ApplicationNameConstant;
+import com.xworkz.app.constant.ApplicationTypeConstant;
+
+public class PlayStoreRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PlayStoreDto amazon=new PlayStoreDto(ApplicationNameConstant.AMAZON.toString(),ApplicationTypeConstant.ECOMMERS.toString(),
+				"123MB",LocalDate.now());
+	}
+
+}

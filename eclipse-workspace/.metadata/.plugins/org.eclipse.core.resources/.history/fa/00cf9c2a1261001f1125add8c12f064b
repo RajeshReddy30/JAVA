@@ -1,0 +1,23 @@
+package com.xworkz.app.Dto;
+
+import java.time.LocalDate;
+
+public class PlayStoreDto {
+	private String applicationName;
+	private String applicationType;
+	private String applicationSize;
+	private LocalDate createdDate;
+	public PlayStoreDto() {
+		System.out.println("no arguments constructor");
+	}
+	public PlayStoreDto(String applicationName, String applicationType, String applicationSize, LocalDate createdDate) {
+		super();
+		this.applicationName = applicationName;
+		this.applicationType = applicationType;
+		this.applicationSize = applicationSize;
+		this.createdDate = createdDate;
+	}
+	
+	
+
+}
