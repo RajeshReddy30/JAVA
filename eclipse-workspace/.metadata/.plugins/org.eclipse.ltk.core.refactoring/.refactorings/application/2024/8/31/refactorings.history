@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;application/bin/com/x-workz&apos; to &apos;xworkz&apos;" description="Rename resource &apos;x-workz&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="bin/com/x-workz" name="xworkz" stamp="1722509859793" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;application/src/com/x-workz&apos; to &apos;xworkz&apos;" description="Rename resource &apos;x-workz&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/x-workz" name="xworkz" stamp="1722509891156" updateReferences="true"/>
-</session>

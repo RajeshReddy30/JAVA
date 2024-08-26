@@ -1,6 +1,0 @@
-package com.xworkz.app.constant;
-
-public enum ApplicationName {
-	AMAZON,LUDO,UDEMY;
-
-}

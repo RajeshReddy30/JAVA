@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;task/src/com/xworkz/oops/runner/ContactRunner.java&apos;" deleteContents="false" description="Delete resource &apos;task/src/com/xworkz/oops/runner/ContactRunner.java&apos;" element1="/task/src/com/xworkz/oops/runner/ContactRunner.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1724257233022"/>
-</session>

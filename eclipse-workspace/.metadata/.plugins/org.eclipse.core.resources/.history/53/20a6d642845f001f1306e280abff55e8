@@ -1,9 +1,0 @@
-package com.xworkz.objectMethods.things;
-
-import com.xworkz.objectMethods.services.Animal;
-
-public class Dog extends Animal {
-	 public   void sound() {
-	        System.out.println("Bark");
-	    }
-	}
