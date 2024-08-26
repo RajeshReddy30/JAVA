@@ -1,0 +1,17 @@
+package com.xworkz.app.services;
+
+import com.xworkz.app.Dto.PlayStoreDto;
+
+public class PlayStore {
+	private PlayStoreDto playstoredto[]=new PlayStoreDto[3];
+	private int index=0;
+	public String onSave(PlayStoreDto dto) {
+		if(dto==null) {
+			return "dto is null :not saved";
+		}else {
+			
+		}
+		return "not saved";
+	}
+
+}

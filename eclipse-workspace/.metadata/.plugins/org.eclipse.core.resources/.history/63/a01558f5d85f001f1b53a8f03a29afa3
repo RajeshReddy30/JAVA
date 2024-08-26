@@ -1,0 +1,13 @@
+package com.xworkz.oops.service;
+
+public class Contact {
+        public String contactNumber; 
+       Long integer=Long.parseLong(contactNumber);
+       public Contact(){
+    	   System.out.println("The contact number is: " + integer);
+    	   
+       }
+     
+        }
+
+

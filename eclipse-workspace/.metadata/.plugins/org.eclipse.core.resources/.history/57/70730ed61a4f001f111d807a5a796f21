@@ -1,0 +1,5 @@
+package com.google.voteridapplication.things;
+
+public class EmployeeSalaries {
+
+}

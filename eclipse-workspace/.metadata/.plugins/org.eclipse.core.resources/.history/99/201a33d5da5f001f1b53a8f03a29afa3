@@ -1,0 +1,15 @@
+package com.xworkz.oops.runner;
+
+import com.xworkz.oops.service.Conversion;
+
+public class ConversionRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Conversion conver=new Conversion();
+		conver.number=988;
+		Integer integer=Integer.valueOf(conver.number);
+
+	}
+
+}

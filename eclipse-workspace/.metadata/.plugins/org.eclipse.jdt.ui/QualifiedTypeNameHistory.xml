@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.xworkz.bank.things.Banks"/>
+    <fullyQualifiedTypeName name="com.xworkz.bank.things.Location"/>
+    <fullyQualifiedTypeName name="com.xworkz.bank.things.UserInformation"/>
+    <fullyQualifiedTypeName name="com.xworkz.bank.things.Account"/>
+    <fullyQualifiedTypeName name="com.xworkz.oops.service.Ecommerce"/>
+    <fullyQualifiedTypeName name="com.xworkz.oops.service.OnlineShopping"/>
+    <fullyQualifiedTypeName name="com.xworkz.objectMethods.services.Whatsapp"/>
+    <fullyQualifiedTypeName name="com.xworkz.objectMethods.services.Earth"/>
+    <fullyQualifiedTypeName name="com.xworkz.objectMethods.services.Product"/>
+    <fullyQualifiedTypeName name="com.xworkz.objectMethods.services.Rapido"/>
+    <fullyQualifiedTypeName name="com.xworkz.objectMethods.services.Systems"/>
+    <fullyQualifiedTypeName name="com.xworkz.objectMethods.constant.Months"/>
+    <fullyQualifiedTypeName name="com.xworkz.objectMethods.constant.Days"/>
+    <fullyQualifiedTypeName name="com.xworkz.objectMethods.constant.Planet"/>
+    <fullyQualifiedTypeName name="com.xworkz.objectMethods.constant.Places"/>
+    <fullyQualifiedTypeName name="com.xworkz.objectMethods.services.Cat"/>
+</qualifiedTypeNameHistroy>

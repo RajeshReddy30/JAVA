@@ -1,0 +1,12 @@
+package com.xworkz.app.services;
+
+import com.xworkz.app.Dto.ResortDto;
+
+public class Resort {
+	private ResortDto resortdto[]=new ResortDto[3];
+	private int index;
+	public static String onSave() {
+		return "not saved";
+	}
+
+}

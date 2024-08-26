@@ -1,0 +1,19 @@
+package com.xworkz.app.Dto;
+
+public class ResortDto {
+	private String resortName;
+	private String location;
+	private double rating;
+	private String resortType;
+	public ResortDto() {
+		System.out.println("no arguments constructor");
+	}
+	public ResortDto(String resortName, String location, double rating, String resortType) {
+		super();
+		this.resortName = resortName;
+		this.location = location;
+		this.rating = rating;
+		this.resortType = resortType;
+	}
+
+}

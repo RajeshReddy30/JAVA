@@ -1,0 +1,19 @@
+package com.xworkz.app.services;
+
+import com.xworkz.app.Dto.ResortDto;
+
+public class Resort {
+	private ResortDto resortdto=new ResortDto[3];
+	private int index;
+	public String onSave() {
+		if(this.index<resortdto.length) {
+			resortdto[index]=ResortDto;
+			index++;
+			
+		
+		}
+			
+		return "not saved";
+	}
+
+}
